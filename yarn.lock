@@ -2451,6 +2451,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+modern-css-reset@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/modern-css-reset/-/modern-css-reset-1.4.0.tgz#5bee4d11eeca2ff19b882c6e8f1769773e792d04"
+  integrity sha512-0crZmSFmrxkI7159rvQWjpDhy0u4+Awg/iOycJdlVn0RSeft/a+6BrQHR3IqvmdK25sqt0o6Z5Ap7cWgUee2rw==
+
 morgan@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.10.0.tgz#091778abc1fc47cd3509824653dae1faab6b17d7"
@@ -2870,6 +2875,11 @@ remix@^1.1.3:
   integrity sha512-rhXWJwBlZwAR/DmE7Jw1jwcm3r6I2v4G+TD6pinNmUb1P522tvFAqsMXO/VB25ozK/8/9gOkd67CiRJVQ9wgiw==
   dependencies:
     fs-extra "^10.0.0"
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-alpn@^1.0.0:
   version "1.2.1"
@@ -3308,6 +3318,13 @@ unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+
+use-fit-text@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/use-fit-text/-/use-fit-text-2.4.0.tgz#d3d1cd72f6d29cfb2233ec0e0b38c6f25d319f67"
+  integrity sha512-Iy4LMrXcdxWlyZ5phntMpJMgyXGB1p3tV73y2r0QrZ6f/thPh+/QU3ie6RCXmjF8tHMs20FKMPskXeDYIla/Ww==
+  dependencies:
+    resize-observer-polyfill "^1.5.1"
 
 util@^0.12.3:
   version "0.12.4"

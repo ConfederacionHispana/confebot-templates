@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Pricedown';
+  font-weight: 700;
+  src: url("/fonts/Pricedown/Pricedown.woff2") format("woff2"),
+  url("/fonts/Pricedown/Pricedown.woff") format("woff"),
+  url("/fonts/Pricedown/Pricedown.ttf") format("truetype")
+}

@@ -5,8 +5,9 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "remix";
-import type { MetaFunction } from "remix";
+} from 'remix';
+import type { MetaFunction } from 'remix';
+import CSSReset from 'modern-css-reset/dist/reset.min.css';
 
 export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
@@ -29,4 +30,13 @@ export default function App() {
       </body>
     </html>
   );
+}
+
+export function links() {
+  return [
+    {
+      rel: 'stylesheet',
+      href: CSSReset
+    }
+  ];
 }
