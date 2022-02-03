@@ -114,3 +114,6 @@ yarn.lock
 /.cache
 /build
 /public/build
+
+# Local Netlify folder
+.netlify
