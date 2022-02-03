@@ -112,8 +112,8 @@ yarn.lock
 
 # Remix build output
 /.cache
-/build
 /public/build
+/netlify/functions/server/build
 
 # Local Netlify folder
 .netlify

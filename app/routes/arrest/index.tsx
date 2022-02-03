@@ -3,7 +3,7 @@ import useFitText from 'use-fit-text';
 import { Global } from '@emotion/react';
 import styled from '@emotion/styled';
 
-import styles from './index.css';
+import styles from '~/styles/arrest.css';
 import ArrestBackgroundImage from '~/assets/template-backgrounds/arrest.png';
 import ConfeLogoImage from '~/assets/confe-logo.png';
 
