@@ -6,9 +6,14 @@ import styled from '@emotion/styled';
 import styles from '~/styles/arrest.css';
 import ArrestBackgroundImage from '~/assets/template-backgrounds/arrest.png';
 import ConfeLogoImage from '~/assets/confe-logo.png';
+import ConfeLogoOutlineImage from '~/assets/confe-logo-outline.png';
 
 const Container = styled.div`
   background-color: hsl(208deg 62% 92%);
+  background-image: url(${ConfeLogoOutlineImage});
+  background-position: 2% 98%;
+  background-repeat: no-repeat;
+  background-size: 20%;
   border-radius: 0.25rem;
   padding: 1rem;
 `;
